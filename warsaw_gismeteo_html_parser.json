@@ -1,0 +1,9 @@
+{
+    "Temperature": "+2",
+    "wind": {
+        "module": 4.0,
+        "source": "северный"
+    },
+    "pressure": 753,
+    "humidity": 93
+}

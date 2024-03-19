@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Deoxycorticosterone",
+        "HMDB": "HMDB0000016",
+        "weight": 330.219494826
+    },
+    {
+        "name": "Ascorbic acid",
+        "HMDB": "HMDB0000044",
+        "weight": 176.032087988
+    },
+    {
+        "name": "Pipecolic acid",
+        "HMDB": "HMDB0000070",
+        "weight": 129.078978601
+    },
+    {
+        "name": "Galactitol",
+        "HMDB": "HMDB0000107",
+        "weight": 182.07903818
+    },
+    {
+        "name": "Estriol",
+        "HMDB": "HMDB0000153",
+        "weight": 288.172544634
+    },
+    {
+        "name": "Hypoxanthine",
+        "HMDB": "HMDB0000157",
+        "weight": 136.03851077
+    },
+    {
+        "name": "Orotic acid",
+        "HMDB": "HMDB0000226",
+        "weight": 156.017106626
+    },
+    {
+        "name": "Thymidine",
+        "HMDB": "HMDB0000273",
+        "weight": 242.090271568
+    },
+    {
+        "name": "Uric acid",
+        "HMDB": "HMDB0000289",
+        "weight": 168.028340014
+    },
+    {
+        "name": "Uracil",
+        "HMDB": "HMDB0000300",
+        "weight": 112.027277382
+    },
+    {
+        "name": "Creatinine",
+        "HMDB": "HMDB0000562",
+        "weight": 113.058911861
+    },
+    {
+        "name": "Succinylacetone",
+        "HMDB": "HMDB0000635",
+        "weight": 158.057908808
+    },
+    {
+        "name": "Pseudouridine",
+        "HMDB": "HMDB0000767",
+        "weight": 244.069536126
+    },
+    {
+        "name": "Queuine",
+        "HMDB": "HMDB0001495",
+        "weight": 277.117489371
+    },
+    {
+        "name": "Water",
+        "HMDB": "HMDB0002111",
+        "weight": 18.010564686
+    },
+    {
+        "name": "1-Methyluric acid",
+        "HMDB": "HMDB0003099",
+        "weight": 182.043990078
+    },
+    {
+        "name": "Estriol-3-glucuronide",
+        "HMDB": "HMDB0010335",
+        "weight": 464.204632622
+    },
+    {
+        "name": "Estriol 3-sulfate 16-glucuronide",
+        "HMDB": "HMDB0010356",
+        "weight": 544.161447178
+    }
+]
