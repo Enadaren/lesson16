@@ -1,0 +1,2248 @@
+[
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q86XP0",
+        "uniProtkbId": "PA24D_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Cytosolic phospholipase A2 delta"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "14709560"
+                            }
+                        ],
+                        "value": "cPLA2-delta"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "14709560"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Phospholipase A2 group IVD"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:30038"
+                        }
+                    ],
+                    "value": "PLA2G4D"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 818
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P80108",
+        "uniProtkbId": "PHLD_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Phosphatidylinositol-glycan-specific phospholipase D"
+                },
+                "shortNames": [
+                    {
+                        "value": "PI-G PLD"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "value": "3.1.4.50"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Glycoprotein phospholipase D"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Glycosyl-phosphatidylinositol-specific phospholipase D"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "GPI-PLD"
+                        },
+                        {
+                            "value": "GPI-specific phospholipase D"
+                        }
+                    ]
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "GPLD1"
+                },
+                "synonyms": [
+                    {
+                        "value": "PIGPLD1"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 840
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q6IQ20",
+        "uniProtkbId": "NAPEP_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "25684574"
+                        }
+                    ],
+                    "value": "N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D"
+                },
+                "shortNames": [
+                    {
+                        "value": "N-acyl phosphatidylethanolamine phospholipase D"
+                    },
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "25684574"
+                            }
+                        ],
+                        "value": "NAPE-PLD"
+                    },
+                    {
+                        "value": "NAPE-hydrolyzing phospholipase D"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "14634025"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "16527816"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "25684574"
+                            }
+                        ],
+                        "value": "3.1.4.54"
+                    }
+                ]
+            }
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "NAPEPLD"
+                },
+                "synonyms": [
+                    {
+                        "value": "C7orf18"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 393
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9UNK4",
+        "uniProtkbId": "PA2GD_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Group IID secretory phospholipase A2"
+                },
+                "shortNames": [
+                    {
+                        "value": "GIID sPLA2"
+                    },
+                    {
+                        "value": "sPLA2-IID"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10455175"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10681567"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "PLA2IID"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine 2-acylhydrolase 2D"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Secretory-type PLA, stroma-associated homolog"
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLA2G2D"
+                },
+                "synonyms": [
+                    {
+                        "value": "SPLASH"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 145
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P35462",
+        "uniProtkbId": "DRD3_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "D(3) dopamine receptor"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Dopamine D3 receptor"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:3024"
+                        }
+                    ],
+                    "value": "DRD3"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 400
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P14416",
+        "uniProtkbId": "DRD2_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "D(2) dopamine receptor"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Dopamine D2 receptor"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "DRD2"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 443
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P37840",
+        "uniProtkbId": "SYUA_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Alpha-synuclein"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Non-A beta component of AD amyloid"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Non-A4 component of amyloid precursor"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "NACP"
+                        }
+                    ]
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "SNCA"
+                },
+                "synonyms": [
+                    {
+                        "value": "NACP"
+                    },
+                    {
+                        "value": "PARK1"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 140
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q96BZ4",
+        "uniProtkbId": "PLD4_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "5'-3' exonuclease PLD4"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q8BG07"
+                            }
+                        ],
+                        "value": "3.1.16.1"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Choline phosphatase 4"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine-hydrolyzing phospholipase D4"
+                    }
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000312",
+                                "source": "HGNC",
+                                "id": "HGNC:23792"
+                            }
+                        ],
+                        "value": "Phospholipase D family member 4"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase D4"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "PLD 4"
+                        }
+                    ]
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLD4"
+                },
+                "synonyms": [
+                    {
+                        "value": "C14orf175"
+                    }
+                ],
+                "orfNames": [
+                    {
+                        "value": "UNQ2488/PRO5775"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 506
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9NUW8",
+        "uniProtkbId": "TYDP1_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Tyrosyl-DNA phosphodiesterase 1"
+                },
+                "shortNames": [
+                    {
+                        "value": "Tyr-DNA phosphodiesterase 1"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "15111055"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "16141202"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "22822062"
+                            }
+                        ],
+                        "value": "3.1.4.-"
+                    }
+                ]
+            }
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "TDP1"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 608
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P21918",
+        "uniProtkbId": "DRD5_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "D(1B) dopamine receptor"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "D(5) dopamine receptor"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "D1beta dopamine receptor"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Dopamine D5 receptor"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "DRD5"
+                },
+                "synonyms": [
+                    {
+                        "value": "DRD1B"
+                    },
+                    {
+                        "value": "DRD1L2"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 477
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P21728",
+        "uniProtkbId": "DRD1_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "D(1A) dopamine receptor"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Dopamine D1 receptor"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "DRD1"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 446
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q13393",
+        "uniProtkbId": "PLD1_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Phospholipase D1"
+                },
+                "shortNames": [
+                    {
+                        "value": "PLD 1"
+                    },
+                    {
+                        "value": "hPLD1"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "25936805"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "8530346"
+                            }
+                        ],
+                        "value": "3.1.4.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Choline phosphatase 1"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine-hydrolyzing phospholipase D1"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:9067"
+                        }
+                    ],
+                    "value": "PLD1"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1074
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "O14939",
+        "uniProtkbId": "PLD2_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Phospholipase D2"
+                },
+                "shortNames": [
+                    {
+                        "value": "PLD 2"
+                    },
+                    {
+                        "value": "hPLD2"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "9582313"
+                            }
+                        ],
+                        "value": "3.1.4.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Choline phosphatase 2"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "PLD1C"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine-hydrolyzing phospholipase D2"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:9068"
+                        }
+                    ],
+                    "value": "PLD2"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 933
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q6P1J6",
+        "uniProtkbId": "PLB1_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Phospholipase B1, membrane-associated"
+                },
+                "shortNames": [
+                    {
+                        "value": "Phospholipase B"
+                    },
+                    {
+                        "value": "hPLB"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Lysophospholipase"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000250",
+                                    "source": "UniProtKB",
+                                    "id": "O54728"
+                                }
+                            ],
+                            "value": "3.1.1.5"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase A2"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000250",
+                                    "source": "UniProtKB",
+                                    "id": "O54728"
+                                }
+                            ],
+                            "value": "3.1.1.4"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase B/lipase"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "PLB/LIP"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Triacylglycerol lipase"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000250",
+                                    "source": "UniProtKB",
+                                    "id": "O54728"
+                                }
+                            ],
+                            "value": "3.1.1.3"
+                        }
+                    ]
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLB1"
+                },
+                "synonyms": [
+                    {
+                        "value": "PLB"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 1458
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q8N2A8",
+        "uniProtkbId": "PLD6_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Mitochondrial cardiolipin hydrolase"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "17028579"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "26711011"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000305",
+                                "source": "PubMed",
+                                "id": "24599962"
+                            }
+                        ],
+                        "value": "3.1.4.-"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Choline phosphatase 6"
+                    }
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "17028579"
+                            }
+                        ],
+                        "value": "Mitochondrial phospholipase"
+                    },
+                    "shortNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000303",
+                                    "source": "PubMed",
+                                    "id": "17028579"
+                                },
+                                {
+                                    "evidenceCode": "ECO:0000303",
+                                    "source": "PubMed",
+                                    "id": "24599962"
+                                }
+                            ],
+                            "value": "MitoPLD"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine-hydrolyzing phospholipase D6"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase D6"
+                    },
+                    "shortNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000303",
+                                    "source": "PubMed",
+                                    "id": "26678338"
+                                }
+                            ],
+                            "value": "PLD6"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "Q9VKD7"
+                            }
+                        ],
+                        "value": "Protein zucchini homolog"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLD6"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 252
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P47712",
+        "uniProtkbId": "PA24A_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Cytosolic phospholipase A2"
+                },
+                "shortNames": [
+                    {
+                        "value": "cPLA2"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Phospholipase A2 group IVA"
+                    }
+                }
+            ],
+            "includes": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Phospholipase A2"
+                        },
+                        "ecNumbers": [
+                            {
+                                "evidences": [
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "10358058"
+                                    },
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "12672805"
+                                    },
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "14709560"
+                                    },
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "16617059"
+                                    },
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "17472963"
+                                    },
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "7794891"
+                                    }
+                                ],
+                                "value": "3.1.1.4"
+                            }
+                        ]
+                    },
+                    "alternativeNames": [
+                        {
+                            "fullName": {
+                                "value": "Phosphatidylcholine 2-acylhydrolase"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Lysophospholipase"
+                        },
+                        "ecNumbers": [
+                            {
+                                "evidences": [
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "12672805"
+                                    },
+                                    {
+                                        "evidenceCode": "ECO:0000269",
+                                        "source": "PubMed",
+                                        "id": "16617059"
+                                    }
+                                ],
+                                "value": "3.1.1.5"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLA2G4A"
+                },
+                "synonyms": [
+                    {
+                        "value": "CPLA2"
+                    },
+                    {
+                        "value": "PLA2G4"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 749
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q6P4A8",
+        "uniProtkbId": "PLBL1_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Phospholipase B-like 1"
+                },
+                "ecNumbers": [
+                    {
+                        "value": "3.1.1.-"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "LAMA-like protein 1"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Lamina ancestor homolog 1"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase B domain-containing protein 1"
+                    }
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Phospholipase B-like 1 chain A"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Phospholipase B-like 1 chain B"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Phospholipase B-like 1 chain C"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLBD1"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 553
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q68DD2",
+        "uniProtkbId": "PA24F_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Cytosolic phospholipase A2 zeta"
+                },
+                "shortNames": [
+                    {
+                        "value": "cPLA2-zeta"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "29158256"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Phospholipase A2 group IVF"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLA2G4F"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 849
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P14555",
+        "uniProtkbId": "PA2GA_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Phospholipase A2, membrane associated"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10455175"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10681567"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "2925633"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "GIIC sPLA2"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Group IIA phospholipase A2"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Non-pancreatic secretory phospholipase A2"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "NPS-PLA2"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine 2-acylhydrolase 2A"
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLA2G2A"
+                },
+                "synonyms": [
+                    {
+                        "value": "PLA2B"
+                    },
+                    {
+                        "value": "PLA2L"
+                    },
+                    {
+                        "value": "RASF-A"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 144
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q8IV08",
+        "uniProtkbId": "PLD3_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "5'-3' exonuclease PLD3"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "30312375"
+                            }
+                        ],
+                        "value": "3.1.16.1"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Choline phosphatase 3"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "HindIII K4L homolog"
+                    }
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "15794758"
+                            }
+                        ],
+                        "value": "Hu-K4"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine-hydrolyzing phospholipase D3"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase D3"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "PLD 3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLD3"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 490
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P0C869",
+        "uniProtkbId": "PA24B_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "16617059"
+                        }
+                    ],
+                    "value": "Cytosolic phospholipase A2 beta"
+                },
+                "shortNames": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "16617059"
+                            }
+                        ],
+                        "value": "cPLA2-beta"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10085124"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10358058"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "16617059"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000305",
+                                "source": "PubMed",
+                                "id": "16617059"
+                            }
+                        ],
+                        "value": "Lysophospholipase A1 group IVB"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000269",
+                                    "source": "PubMed",
+                                    "id": "10358058"
+                                },
+                                {
+                                    "evidenceCode": "ECO:0000269",
+                                    "source": "PubMed",
+                                    "id": "16617059"
+                                }
+                            ],
+                            "value": "3.1.1.5"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase A2 group IVB"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLA2G4B"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 781
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P04054",
+        "uniProtkbId": "PA21B_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Phospholipase A2"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10681567"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "17603006"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Group IB phospholipase A2"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine 2-acylhydrolase 1B"
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "PLA2G1B"
+                },
+                "synonyms": [
+                    {
+                        "value": "PLA2"
+                    },
+                    {
+                        "value": "PLA2A"
+                    },
+                    {
+                        "value": "PPLA2"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 148
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q53H76",
+        "uniProtkbId": "PLA1A_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Phospholipase A1 member A"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10196188"
+                            }
+                        ],
+                        "value": "3.1.1.111"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Phosphatidylserine-specific phospholipase A1"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "PS-PLA1"
+                        }
+                    ]
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:17661"
+                        }
+                    ],
+                    "value": "PLA1A"
+                },
+                "synonyms": [
+                    {
+                        "value": "NMD"
+                    },
+                    {
+                        "value": "PSPLA1"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 456
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9P212",
+        "uniProtkbId": "PLCE1_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase epsilon-1"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "11022047"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "11022048"
+                            }
+                        ],
+                        "value": "3.1.4.11"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Pancreas-enriched phospholipase C"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphoinositide phospholipase C-epsilon-1"
+                    }
+                },
+                {
+                    "fullName": {
+                        "value": "Phospholipase C-epsilon-1"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "PLC-epsilon-1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:17175"
+                        }
+                    ],
+                    "value": "PLCE1"
+                },
+                "synonyms": [
+                    {
+                        "value": "KIAA1516"
+                    },
+                    {
+                        "value": "PLCE"
+                    },
+                    {
+                        "value": "PPLC"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 2302
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9NZ20",
+        "uniProtkbId": "PA2G3_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Group 3 secretory phospholipase A2"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "12522102"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "18801741"
+                            }
+                        ],
+                        "value": "3.1.1.4"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Group III secretory phospholipase A2"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "GIII sPLA2"
+                        },
+                        {
+                            "value": "sPLA2-III"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Phosphatidylcholine 2-acylhydrolase 3"
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:17934"
+                        }
+                    ],
+                    "value": "PLA2G3"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 509
+        }
+    }
+]

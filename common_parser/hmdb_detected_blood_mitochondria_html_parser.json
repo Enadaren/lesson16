@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Saccharopine",
+        "HMDB": "HMDB0000279",
+        "weight": 276.132136382
+    },
+    {
+        "name": "Mesaconic acid",
+        "HMDB": "HMDB0000749",
+        "weight": 130.02660868
+    },
+    {
+        "name": "Itaconic acid",
+        "HMDB": "HMDB0002092",
+        "weight": 130.02660868
+    },
+    {
+        "name": "5-Hydroxyindoleacetaldehyde",
+        "HMDB": "HMDB0004073",
+        "weight": 175.063328537
+    },
+    {
+        "name": "Heptadecanoyl carnitine",
+        "HMDB": "HMDB0006210",
+        "weight": 413.350508997
+    },
+    {
+        "name": "Gamma-linolenyl carnitine",
+        "HMDB": "HMDB0006318",
+        "weight": 421.319208869
+    },
+    {
+        "name": "Alpha-linolenyl carnitine",
+        "HMDB": "HMDB0006319",
+        "weight": 421.319208869
+    },
+    {
+        "name": "Arachidonoylcarnitine",
+        "HMDB": "HMDB0006455",
+        "weight": 448.342135385
+    },
+    {
+        "name": "Arachidyl carnitine",
+        "HMDB": "HMDB0006460",
+        "weight": 455.397459189
+    },
+    {
+        "name": "3-Indoleacetonitrile",
+        "HMDB": "HMDB0006524",
+        "weight": 156.068748266
+    }
+]

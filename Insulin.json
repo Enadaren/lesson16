@@ -1,0 +1,1870 @@
+[
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P06213",
+        "uniProtkbId": "INSR_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin receptor"
+                },
+                "shortNames": [
+                    {
+                        "value": "IR"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "value": "2.7.10.1"
+                    }
+                ]
+            },
+            "cdAntigenNames": [
+                {
+                    "value": "CD220"
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin receptor subunit alpha"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin receptor subunit beta"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INSR"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1382
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P14735",
+        "uniProtkbId": "IDE_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "20364150"
+                        }
+                    ],
+                    "value": "Insulin-degrading enzyme"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10684867"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "17051221"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "21098034"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "2293021"
+                            }
+                        ],
+                        "value": "3.4.24.56"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Abeta-degrading protease"
+                    }
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "20364150"
+                            }
+                        ],
+                        "value": "Insulin protease"
+                    },
+                    "shortNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000303",
+                                    "source": "PubMed",
+                                    "id": "20364150"
+                                }
+                            ],
+                            "value": "Insulinase"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "20364150"
+                            }
+                        ],
+                        "value": "Insulysin"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "20364150"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "HGNC",
+                            "id": "HGNC:5381"
+                        }
+                    ],
+                    "value": "IDE"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1019
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01308",
+        "uniProtkbId": "INS_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01317",
+        "uniProtkbId": "INS_BOVIN",
+        "organism": {
+            "scientificName": "Bos taurus",
+            "commonName": "Bovine",
+            "taxonId": 9913,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Laurasiatheria",
+                "Artiodactyla",
+                "Ruminantia",
+                "Pecora",
+                "Bovidae",
+                "Bovinae",
+                "Bos"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 105
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P67970",
+        "uniProtkbId": "INS_CHICK",
+        "organism": {
+            "scientificName": "Gallus gallus",
+            "commonName": "Chicken",
+            "taxonId": 9031,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Archelosauria",
+                "Archosauria",
+                "Dinosauria",
+                "Saurischia",
+                "Theropoda",
+                "Coelurosauria",
+                "Aves",
+                "Neognathae",
+                "Galloanserae",
+                "Galliformes",
+                "Phasianidae",
+                "Phasianinae",
+                "Gallus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 107
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01321",
+        "uniProtkbId": "INS_CANLF",
+        "organism": {
+            "scientificName": "Canis lupus familiaris",
+            "commonName": "Dog",
+            "synonyms": [
+                "Canis familiaris"
+            ],
+            "taxonId": 9615,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Laurasiatheria",
+                "Carnivora",
+                "Caniformia",
+                "Canidae",
+                "Canis"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P17715",
+        "uniProtkbId": "INS_OCTDE",
+        "organism": {
+            "scientificName": "Octodon degus",
+            "commonName": "Degu",
+            "synonyms": [
+                "Sciurus degus"
+            ],
+            "taxonId": 10160,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Hystricomorpha",
+                "Octodontidae",
+                "Octodon"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 109
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01329",
+        "uniProtkbId": "INS_CAVPO",
+        "organism": {
+            "scientificName": "Cavia porcellus",
+            "commonName": "Guinea pig",
+            "taxonId": 10141,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Hystricomorpha",
+                "Caviidae",
+                "Cavia"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q91XI3",
+        "uniProtkbId": "INS_ICTTR",
+        "organism": {
+            "scientificName": "Ictidomys tridecemlineatus",
+            "commonName": "Thirteen-lined ground squirrel",
+            "synonyms": [
+                "Spermophilus tridecemlineatus"
+            ],
+            "taxonId": 43179,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Sciuromorpha",
+                "Sciuridae",
+                "Xerinae",
+                "Marmotini",
+                "Ictidomys"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01315",
+        "uniProtkbId": "INS_PIG",
+        "organism": {
+            "scientificName": "Sus scrofa",
+            "commonName": "Pig",
+            "taxonId": 9823,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Laurasiatheria",
+                "Artiodactyla",
+                "Suina",
+                "Suidae",
+                "Sus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INS"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 108
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9Y5Q6",
+        "uniProtkbId": "INSL5_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-like peptide INSL5"
+                },
+                "shortNames": [
+                    {
+                        "value": "Insulin-like peptide 5"
+                    }
+                ]
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like peptide INSL5 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like peptide INSL5 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INSL5"
+                },
+                "orfNames": [
+                    {
+                        "value": "UNQ156/PRO182"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 135
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01322",
+        "uniProtkbId": "INS1_RAT",
+        "organism": {
+            "scientificName": "Rattus norvegicus",
+            "commonName": "Rat",
+            "taxonId": 10116,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Rattus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-1"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-1 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-1 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ins1"
+                },
+                "synonyms": [
+                    {
+                        "value": "Ins-1"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01323",
+        "uniProtkbId": "INS2_RAT",
+        "organism": {
+            "scientificName": "Rattus norvegicus",
+            "commonName": "Rat",
+            "taxonId": 10116,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Rattus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-2"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-2 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-2 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ins2"
+                },
+                "synonyms": [
+                    {
+                        "value": "Ins-2"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01326",
+        "uniProtkbId": "INS2_MOUSE",
+        "organism": {
+            "scientificName": "Mus musculus",
+            "commonName": "Mouse",
+            "taxonId": 10090,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Mus",
+                "Mus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-2"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-2 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-2 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ins2"
+                },
+                "synonyms": [
+                    {
+                        "value": "Ins-2"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 110
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P01325",
+        "uniProtkbId": "INS1_MOUSE",
+        "organism": {
+            "scientificName": "Mus musculus",
+            "commonName": "Mouse",
+            "taxonId": 10090,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Mus",
+                "Mus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-1"
+                }
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-1 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-1 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ins1"
+                },
+                "synonyms": [
+                    {
+                        "value": "Ins-1"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 108
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P15127",
+        "uniProtkbId": "INSR_RAT",
+        "organism": {
+            "scientificName": "Rattus norvegicus",
+            "commonName": "Rat",
+            "taxonId": 10116,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Rattus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin receptor"
+                },
+                "shortNames": [
+                    {
+                        "value": "IR"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "value": "2.7.10.1"
+                    }
+                ]
+            },
+            "cdAntigenNames": [
+                {
+                    "value": "CD220"
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin receptor subunit alpha"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin receptor subunit beta"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Insr"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1383
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P15208",
+        "uniProtkbId": "INSR_MOUSE",
+        "organism": {
+            "scientificName": "Mus musculus",
+            "commonName": "Mouse",
+            "taxonId": 10090,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Mus",
+                "Mus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin receptor"
+                },
+                "shortNames": [
+                    {
+                        "value": "IR"
+                    }
+                ],
+                "ecNumbers": [
+                    {
+                        "value": "2.7.10.1"
+                    }
+                ]
+            },
+            "cdAntigenNames": [
+                {
+                    "value": "CD220"
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin receptor subunit alpha"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin receptor subunit beta"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Insr"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1372
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9QY05",
+        "uniProtkbId": "INSL6_MOUSE",
+        "organism": {
+            "scientificName": "Mus musculus",
+            "commonName": "Mouse",
+            "taxonId": 10090,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Mus",
+                "Mus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-like peptide INSL6"
+                },
+                "shortNames": [
+                    {
+                        "value": "Insulin-like peptide 6"
+                    }
+                ]
+            },
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like peptide INSL6 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like peptide INSL6 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Insl6"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 191
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P51460",
+        "uniProtkbId": "INSL3_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-like 3"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Leydig insulin-like peptide"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Ley-I-L"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Relaxin-like factor"
+                    }
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INSL3"
+                },
+                "synonyms": [
+                    {
+                        "value": "RLF"
+                    },
+                    {
+                        "value": "RLNL"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 131
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q24K02",
+        "uniProtkbId": "IDE_BOVIN",
+        "organism": {
+            "scientificName": "Bos taurus",
+            "commonName": "Bovine",
+            "taxonId": 9913,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Laurasiatheria",
+                "Artiodactyla",
+                "Ruminantia",
+                "Pecora",
+                "Bovidae",
+                "Bovinae",
+                "Bos"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-degrading enzyme"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P35559"
+                            }
+                        ],
+                        "value": "3.4.24.56"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Insulin protease"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Insulinase"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Insulysin"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "IDE"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1019
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P35559",
+        "uniProtkbId": "IDE_RAT",
+        "organism": {
+            "scientificName": "Rattus norvegicus",
+            "commonName": "Rat",
+            "taxonId": 10116,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Rattus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-degrading enzyme"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "10684867"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1445854"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "14527953"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "1836994"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "21731629"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "22049080"
+                            }
+                        ],
+                        "value": "3.4.24.56"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Insulin protease"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Insulinase"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "21731629"
+                            }
+                        ],
+                        "value": "Insulysin"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ide"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1019
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "Q9JHR7",
+        "uniProtkbId": "IDE_MOUSE",
+        "organism": {
+            "scientificName": "Mus musculus",
+            "commonName": "Mouse",
+            "taxonId": 10090,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Mus",
+                "Mus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-degrading enzyme"
+                },
+                "ecNumbers": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "12732730"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "24847884"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "9830016"
+                            }
+                        ],
+                        "value": "3.4.24.56"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Insulin protease"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Insulinase"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000303",
+                                "source": "PubMed",
+                                "id": "12732730"
+                            }
+                        ],
+                        "value": "Insulysin"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ide"
+                }
+            }
+        ],
+        "sequence": {
+            "length": 1019
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "O77801",
+        "uniProtkbId": "INSL3_BOVIN",
+        "organism": {
+            "scientificName": "Bos taurus",
+            "commonName": "Bovine",
+            "taxonId": 9913,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Laurasiatheria",
+                "Artiodactyla",
+                "Ruminantia",
+                "Pecora",
+                "Bovidae",
+                "Bovinae",
+                "Bos"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-like 3"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Leydig insulin-like peptide"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Ley-I-L"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Relaxin-like factor"
+                    }
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 B' chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "INSL3"
+                },
+                "synonyms": [
+                    {
+                        "value": "RLF"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 132
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "P22817",
+        "uniProtkbId": "IDE_DROME",
+        "organism": {
+            "scientificName": "Drosophila melanogaster",
+            "commonName": "Fruit fly",
+            "taxonId": 7227,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Ecdysozoa",
+                "Arthropoda",
+                "Hexapoda",
+                "Insecta",
+                "Pterygota",
+                "Neoptera",
+                "Endopterygota",
+                "Diptera",
+                "Brachycera",
+                "Muscomorpha",
+                "Ephydroidea",
+                "Drosophilidae",
+                "Drosophila",
+                "Sophophora"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-degrading enzyme"
+                },
+                "ecNumbers": [
+                    {
+                        "value": "3.4.24.56"
+                    }
+                ]
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Insulin protease"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Insulinase"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Insulysin"
+                    }
+                }
+            ]
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Ide"
+                },
+                "orfNames": [
+                    {
+                        "value": "CG5517"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 990
+        }
+    },
+    {
+        "entryType": "UniProtKB reviewed (Swiss-Prot)",
+        "primaryAccession": "O09107",
+        "uniProtkbId": "INSL3_MOUSE",
+        "organism": {
+            "scientificName": "Mus musculus",
+            "commonName": "Mouse",
+            "taxonId": 10090,
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Glires",
+                "Rodentia",
+                "Myomorpha",
+                "Muroidea",
+                "Muridae",
+                "Murinae",
+                "Mus",
+                "Mus"
+            ]
+        },
+        "proteinDescription": {
+            "recommendedName": {
+                "fullName": {
+                    "value": "Insulin-like 3"
+                }
+            },
+            "alternativeNames": [
+                {
+                    "fullName": {
+                        "value": "Leydig insulin-like peptide"
+                    },
+                    "shortNames": [
+                        {
+                            "value": "Ley-I-L"
+                        }
+                    ]
+                },
+                {
+                    "fullName": {
+                        "value": "Relaxin-like factor"
+                    }
+                }
+            ],
+            "contains": [
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 B chain"
+                        }
+                    }
+                },
+                {
+                    "recommendedName": {
+                        "fullName": {
+                            "value": "Insulin-like 3 A chain"
+                        }
+                    }
+                }
+            ],
+            "flag": "Precursor"
+        },
+        "genes": [
+            {
+                "geneName": {
+                    "value": "Insl3"
+                },
+                "synonyms": [
+                    {
+                        "value": "Rlf"
+                    }
+                ]
+            }
+        ],
+        "sequence": {
+            "length": 122
+        }
+    }
+]
