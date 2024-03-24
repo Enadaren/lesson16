@@ -1,0 +1,55 @@
+[
+    {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "C5J0G2",
+        "uniProtkbId": "C5J0G2_HUMAN",
+        "organism": {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606,
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "ACR55079.1"
+                }
+            ],
+            "lineage": [
+                "Eukaryota",
+                "Metazoa",
+                "Chordata",
+                "Craniata",
+                "Vertebrata",
+                "Euteleostomi",
+                "Mammalia",
+                "Eutheria",
+                "Euarchontoglires",
+                "Primates",
+                "Haplorrhini",
+                "Catarrhini",
+                "Hominidae",
+                "Homo"
+            ]
+        },
+        "proteinDescription": {
+            "submissionNames": [
+                {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000313",
+                                "source": "EMBL",
+                                "id": "ACR55079.1"
+                            }
+                        ],
+                        "value": "Serpina 1"
+                    }
+                }
+            ],
+            "flag": "Fragment"
+        },
+        "sequence": {
+            "length": 63
+        }
+    }
+]

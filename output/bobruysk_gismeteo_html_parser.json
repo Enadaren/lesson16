@@ -1,0 +1,9 @@
+{
+    "Temperature": "0",
+    "wind": {
+        "module": 0.0,
+        "source": "штиль"
+    },
+    "pressure": 738,
+    "humidity": 86
+}

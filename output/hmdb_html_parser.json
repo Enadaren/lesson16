@@ -1,0 +1,472 @@
+[
+    {
+        "name": "Acetic acid",
+        "HMDB": "HMDB0000042",
+        "weight": 60.021129372
+    },
+    {
+        "name": "Adenosine monophosphate",
+        "HMDB": "HMDB0000045",
+        "weight": 347.063084339
+    },
+    {
+        "name": "L-Cystathionine",
+        "HMDB": "HMDB0000099",
+        "weight": 222.067427636
+    },
+    {
+        "name": "Glutathione",
+        "HMDB": "HMDB0000125",
+        "weight": 307.083805981
+    },
+    {
+        "name": "D-Glucuronic acid",
+        "HMDB": "HMDB0000127",
+        "weight": 194.042652674
+    },
+    {
+        "name": "Formic acid",
+        "HMDB": "HMDB0000142",
+        "weight": 46.005479308
+    },
+    {
+        "name": "Estrone",
+        "HMDB": "HMDB0000145",
+        "weight": 270.161979948
+    },
+    {
+        "name": "Estradiol",
+        "HMDB": "HMDB0000151",
+        "weight": 272.177630012
+    },
+    {
+        "name": "Estriol",
+        "HMDB": "HMDB0000153",
+        "weight": 288.172544634
+    },
+    {
+        "name": "Hypoxanthine",
+        "HMDB": "HMDB0000157",
+        "weight": 136.03851077
+    },
+    {
+        "name": "Proline",
+        "HMDB": "HMDB0000162",
+        "weight": 115.063328537
+    },
+    {
+        "name": "D-Maltose",
+        "HMDB": "HMDB0000163",
+        "weight": 342.116211546
+    },
+    {
+        "name": "Inosine",
+        "HMDB": "HMDB0000195",
+        "weight": 268.080769514
+    },
+    {
+        "name": "Indoleacetic acid",
+        "HMDB": "HMDB0000197",
+        "weight": 175.063328537
+    },
+    {
+        "name": "Uric acid",
+        "HMDB": "HMDB0000289",
+        "weight": 168.028340014
+    },
+    {
+        "name": "Xanthine",
+        "HMDB": "HMDB0000292",
+        "weight": 152.033425392
+    },
+    {
+        "name": "Adipic acid",
+        "HMDB": "HMDB0000448",
+        "weight": 146.057908808
+    },
+    {
+        "name": "L-alpha-Aminobutyric acid",
+        "HMDB": "HMDB0000452",
+        "weight": 103.063328537
+    },
+    {
+        "name": "L-Arginine",
+        "HMDB": "HMDB0000517",
+        "weight": 174.111675712
+    },
+    {
+        "name": "L-Cysteine",
+        "HMDB": "HMDB0000574",
+        "weight": 121.019749163
+    },
+    {
+        "name": "Fluoride",
+        "HMDB": "HMDB0000662",
+        "weight": 18.998403205
+    },
+    {
+        "name": "Malonic acid",
+        "HMDB": "HMDB0000691",
+        "weight": 104.010958616
+    },
+    {
+        "name": "Methionine",
+        "HMDB": "HMDB0000696",
+        "weight": 149.051049291
+    },
+    {
+        "name": "Hippuric acid",
+        "HMDB": "HMDB0000714",
+        "weight": 179.058243159
+    },
+    {
+        "name": "Homocysteine",
+        "HMDB": "HMDB0000742",
+        "weight": 135.035399227
+    },
+    {
+        "name": "Glycogen",
+        "HMDB": "HMDB0000757",
+        "weight": 666.221858406
+    },
+    {
+        "name": "Hydrocinnamic acid",
+        "HMDB": "HMDB0000764",
+        "weight": 150.068079564
+    },
+    {
+        "name": "Oxypurinol",
+        "HMDB": "HMDB0000786",
+        "weight": 152.033425392
+    },
+    {
+        "name": "Trimethylamine N-oxide",
+        "HMDB": "HMDB0000925",
+        "weight": 75.068413915
+    },
+    {
+        "name": "S-Adenosylhomocysteine",
+        "HMDB": "HMDB0000939",
+        "weight": 384.12158847
+    },
+    {
+        "name": "Acetaldehyde",
+        "HMDB": "HMDB0000990",
+        "weight": 44.02621475
+    },
+    {
+        "name": "Cotinine",
+        "HMDB": "HMDB0001046",
+        "weight": 176.094963016
+    },
+    {
+        "name": "Nornicotine",
+        "HMDB": "HMDB0001126",
+        "weight": 148.100048394
+    },
+    {
+        "name": "4-Trimethylammoniobutanoic acid",
+        "HMDB": "HMDB0001161",
+        "weight": 145.110278729
+    },
+    {
+        "name": "N-Acetylserotonin",
+        "HMDB": "HMDB0001238",
+        "weight": 218.105527702
+    },
+    {
+        "name": "Maltotriose",
+        "HMDB": "HMDB0001262",
+        "weight": 504.169034976
+    },
+    {
+        "name": "Maltotetraose",
+        "HMDB": "HMDB0001296",
+        "weight": 666.221858406
+    },
+    {
+        "name": "Norcotinine",
+        "HMDB": "HMDB0001297",
+        "weight": 162.079312952
+    },
+    {
+        "name": "Hydroxycotinine",
+        "HMDB": "HMDB0001390",
+        "weight": 192.089877638
+    },
+    {
+        "name": "5-Methyltetrahydrofolic acid",
+        "HMDB": "HMDB0001396",
+        "weight": 459.186631567
+    },
+    {
+        "name": "Cotinine N-oxide",
+        "HMDB": "HMDB0001411",
+        "weight": 192.089877638
+    },
+    {
+        "name": "Formaldehyde",
+        "HMDB": "HMDB0001426",
+        "weight": 30.010564686
+    },
+    {
+        "name": "Phosphate",
+        "HMDB": "HMDB0001429",
+        "weight": 97.976895096
+    },
+    {
+        "name": "6-Hydroxydopamine",
+        "HMDB": "HMDB0001537",
+        "weight": 169.073893223
+    },
+    {
+        "name": "Caffeine",
+        "HMDB": "HMDB0001847",
+        "weight": 194.080375584
+    },
+    {
+        "name": "1,3-Dimethyluric acid",
+        "HMDB": "HMDB0001857",
+        "weight": 196.059640142
+    },
+    {
+        "name": "Acetaminophen",
+        "HMDB": "HMDB0001859",
+        "weight": 151.063328537
+    },
+    {
+        "name": "Paraxanthine",
+        "HMDB": "HMDB0001860",
+        "weight": 180.06472552
+    },
+    {
+        "name": "Methanol",
+        "HMDB": "HMDB0001875",
+        "weight": 32.02621475
+    },
+    {
+        "name": "Epinephrine sulfate",
+        "HMDB": "HMDB0001876",
+        "weight": 263.046357843
+    },
+    {
+        "name": "3-Methylxanthine",
+        "HMDB": "HMDB0001886",
+        "weight": 166.049075456
+    },
+    {
+        "name": "Theophylline",
+        "HMDB": "HMDB0001889",
+        "weight": 180.06472552
+    },
+    {
+        "name": "17a-Ethynylestradiol",
+        "HMDB": "HMDB0001926",
+        "weight": 296.177630012
+    },
+    {
+        "name": "Nicotine",
+        "HMDB": "HMDB0001934",
+        "weight": 162.115698458
+    },
+    {
+        "name": "Phenylpropanolamine",
+        "HMDB": "HMDB0001942",
+        "weight": 151.099714043
+    },
+    {
+        "name": "Carbon dioxide",
+        "HMDB": "HMDB0001967",
+        "weight": 43.989829244
+    },
+    {
+        "name": "7-Methylxanthine",
+        "HMDB": "HMDB0001991",
+        "weight": 166.049075456
+    },
+    {
+        "name": "Eicosapentaenoic acid",
+        "HMDB": "HMDB0001999",
+        "weight": 302.224580204
+    },
+    {
+        "name": "Norepinephrine sulfate",
+        "HMDB": "HMDB0002062",
+        "weight": 249.030707779
+    },
+    {
+        "name": "1,3,7-Trimethyluric acid",
+        "HMDB": "HMDB0002123",
+        "weight": 210.075290206
+    },
+    {
+        "name": "Desaminotyrosine",
+        "HMDB": "HMDB0002199",
+        "weight": 166.062994186
+    },
+    {
+        "name": "Dimethylsulfide",
+        "HMDB": "HMDB0002303",
+        "weight": 62.019020882
+    },
+    {
+        "name": "Oxalic acid",
+        "HMDB": "HMDB0002329",
+        "weight": 89.995308552
+    },
+    {
+        "name": "Bromide",
+        "HMDB": "HMDB0002500",
+        "weight": 78.918337647
+    },
+    {
+        "name": "Thyroxine sulfate",
+        "HMDB": "HMDB0002728",
+        "weight": 856.643496081
+    },
+    {
+        "name": "Theobromine",
+        "HMDB": "HMDB0002825",
+        "weight": 180.06472552
+    },
+    {
+        "name": "Androsterone glucuronide",
+        "HMDB": "HMDB0002829",
+        "weight": 466.256668192
+    },
+    {
+        "name": "6-Keto-prostaglandin F1a",
+        "HMDB": "HMDB0002886",
+        "weight": 370.23553882
+    },
+    {
+        "name": "Dihydrotestosterone",
+        "HMDB": "HMDB0002961",
+        "weight": 290.224580204
+    },
+    {
+        "name": "1-Methyluric acid",
+        "HMDB": "HMDB0003099",
+        "weight": 182.043990078
+    },
+    {
+        "name": "Retinoyl b-glucuronide",
+        "HMDB": "HMDB0003141",
+        "weight": 476.241018128
+    },
+    {
+        "name": "Testosterone glucuronide",
+        "HMDB": "HMDB0003193",
+        "weight": 464.241018128
+    },
+    {
+        "name": "3-Methoxy-4-Hydroxyphenylglycol sulfate",
+        "HMDB": "HMDB0003332",
+        "weight": 264.030373428
+    },
+    {
+        "name": "6-Hydroxymelatonin",
+        "HMDB": "HMDB0004081",
+        "weight": 248.116092388
+    },
+    {
+        "name": "Dopamine 4-sulfate",
+        "HMDB": "HMDB0004148",
+        "weight": 233.035793157
+    },
+    {
+        "name": "Anabasine",
+        "HMDB": "HMDB0004350",
+        "weight": 162.115698458
+    },
+    {
+        "name": "Estrone glucuronide",
+        "HMDB": "HMDB0004483",
+        "weight": 446.194067936
+    },
+    {
+        "name": "Perillic acid",
+        "HMDB": "HMDB0004586",
+        "weight": 166.099379691
+    },
+    {
+        "name": "Dimethyl sulfone",
+        "HMDB": "HMDB0004983",
+        "weight": 94.008850126
+    },
+    {
+        "name": "Eriodictyol",
+        "HMDB": "HMDB0005810",
+        "weight": 288.063388116
+    },
+    {
+        "name": "5-alpha-Dihydrotestosterone glucuronide",
+        "HMDB": "HMDB0006203",
+        "weight": 466.256668192
+    },
+    {
+        "name": "17-beta-Estradiol-3-glucuronide",
+        "HMDB": "HMDB0006224",
+        "weight": 448.209718
+    },
+    {
+        "name": "Dopamine 3-O-sulfate",
+        "HMDB": "HMDB0006275",
+        "weight": 233.035793157
+    },
+    {
+        "name": "Estriol-16-Glucuronide",
+        "HMDB": "HMDB0006766",
+        "weight": 464.204632622
+    },
+    {
+        "name": "Acetaminophen glucuronide",
+        "HMDB": "HMDB0010316",
+        "weight": 327.095416525
+    },
+    {
+        "name": "Ethyl glucuronide",
+        "HMDB": "HMDB0010325",
+        "weight": 222.073952802
+    },
+    {
+        "name": "Dopamine glucuronide",
+        "HMDB": "HMDB0010329",
+        "weight": 329.111066589
+    },
+    {
+        "name": "Retinyl beta-glucuronide",
+        "HMDB": "HMDB0010340",
+        "weight": 462.26175357
+    },
+    {
+        "name": "1-Methylxanthine",
+        "HMDB": "HMDB0010738",
+        "weight": 166.049075456
+    },
+    {
+        "name": "1,7-Dimethyluric acid",
+        "HMDB": "HMDB0011103",
+        "weight": 196.059640142
+    },
+    {
+        "name": "5-Acetylamino-6-formylamino-3-methyluracil",
+        "HMDB": "HMDB0011105",
+        "weight": 226.070204828
+    },
+    {
+        "name": "4-(Methylnitrosamino)-1-(3-pyridyl)-1-butanol",
+        "HMDB": "HMDB0041809",
+        "weight": 209.116426739
+    },
+    {
+        "name": "Acrolein",
+        "HMDB": "HMDB0041822",
+        "weight": 56.02621475
+    },
+    {
+        "name": "Paracetamol sulfate",
+        "HMDB": "HMDB0059911",
+        "weight": 231.020143093
+    }
+]

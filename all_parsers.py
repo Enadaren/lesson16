@@ -17,6 +17,14 @@ class BaseParser(ABC):
         response= self.session.get(self.url+self.query,params={"page":num})
         if response.status_code==200:
             return response
+        
+    @abstractmethod
+    def get_info(self):
+        pass
+
+    @abstractmethod
+    def create_name_file(self):
+        pass
     
     def writefile(self,data,path):
         with open(path,"w") as file:
@@ -25,8 +33,9 @@ class BaseParser(ABC):
     
 class HmdbParser(BaseParser):    
     def create_filter(self):
+        name = input("Enter filter criteria by space: ").split(" ")
         filter="?utf8/=✓&"
-        for key in self.query:
+        for key in name:
             filter = filter+key+"=1&"
         filter=filter+"filter=true"
         self.query=filter
@@ -43,7 +52,8 @@ class HmdbParser(BaseParser):
             last_page=1
         return last_page
     
-    def get_data(self):
+    def get_info(self):
+        self=self.create_filter() 
         last_page = self.get_number_of_pages()
         dict_data = {}
         dict_data["name"]=list()
@@ -65,19 +75,20 @@ class HmdbParser(BaseParser):
                 except:
                     weight = None
                 dict_data["weight"].append(weight)
-        return dict_data
-    
-    def transform(self,data):
         transform_data=list()
-        for i in range(len(data["name"])):
+        for i in range(len(dict_data["name"])):
             el_dict={}
-            el_dict["name"]=data["name"][i]
-            el_dict["HMDB"]=data["HMDB"][i]
-            el_dict["weight"]=data["weight"][i]
-            transform_data.append(el_dict)
+            el_dict["name"]=dict_data["name"][i]
+            el_dict["HMDB"]=dict_data["HMDB"][i]
+            el_dict["weight"]=dict_data["weight"][i]
+            transform_data.append(el_dict)        
         return transform_data
     
-
+    def create_name_file(self):
+        name_file="output/hmdb_html_parser.json"
+        return name_file
+            
+    
 class GismeteoParser(BaseParser):
     def parse_country(self,country):
         page = self._get_page()
@@ -111,21 +122,30 @@ class GismeteoParser(BaseParser):
             print("Sorry, it is unpopular city. Please, travel to popular city")
         return self
     
-    def parse_weather(self):
-        page = self._get_page()
-        page_text=bs4.BeautifulSoup(page.text,"lxml")
-        weather_inform={}
-        weather_inform["Temperature"]=page_text.find("div","now-weather").find("span", "unit unit_temperature_c").text
-        weather_inform["wind"]={}
-        wind=page_text.find("div","now-info-item wind").find("div","unit unit_wind_m_s").text.split("м/c")
-        weather_inform["wind"]["module"]=float(wind[0])
-        weather_inform["wind"]["source"]=wind[1]
-        pressure = page_text.find("div","now-info-item pressure")
-        weather_inform["pressure"]=int(re.findall(r"\d+",pressure.find("div", "unit unit_pressure_mm_hg").text)[0])
-        humidity=page_text.find("div","now-info-item humidity")
-        weather_inform["humidity"]=int(humidity.find("div","item-value").text)
-        return weather_inform
-
+    def get_info(self):
+        country=input("Please, enter the country (on Russian): ")+" "
+        self=self.parse_country(country)
+        if self.query is not None:
+            city = input("Please, enter the city (on the Russian): ")
+            self = self.parse_city(city)
+            if self.query is not None:
+                page = self._get_page()
+                page_text=bs4.BeautifulSoup(page.text,"lxml")
+                weather_inform={}
+                weather_inform["Temperature"]=page_text.find("div","now-weather").find("span", "unit unit_temperature_c").text
+                weather_inform["wind"]={}
+                wind=page_text.find("div","now-info-item wind").find("div","unit unit_wind_m_s").text.split("м/c")
+                weather_inform["wind"]["module"]=float(wind[0])
+                weather_inform["wind"]["source"]=wind[1]
+                pressure = page_text.find("div","now-info-item pressure")
+                weather_inform["pressure"]=int(re.findall(r"\d+",pressure.find("div", "unit unit_pressure_mm_hg").text)[0])
+                humidity=page_text.find("div","now-info-item humidity")
+                weather_inform["humidity"]=int(humidity.find("div","item-value").text)
+                return weather_inform
+    
+    def create_name_file(self):
+        namefile= "output/"+self.query.split("-")[1] +"_gismeteo_html_parser.json"
+        return namefile
 
 BASE_PORTAL = {"Бенякони":"53d94097-2b34-11ec-8467-ac1f6bf889c0", 
                "Берестовица":"7e46a2d1-ab2f-11ec-bafb-ac1f6bf889c1",
@@ -148,10 +168,21 @@ class DeclarantParser(BaseParser):
         self.query=BASE_PORTAL[checkpoint]
         return self
 
-    def get_Queue(self,transport, data):
+    def get_info(self):
+        checkpoint=input("Введіте погранічный пункт: ")
+        transport = input("Очередь легковая ілі грузовая: ")
+        self=self.get_zone(checkpoint)
+        data=self._get_page().json()
         key=BASE_TRANSPORT[transport.lower()]+"LiveQueue"
         Queue = data[key]
-        return (Queue)
+        return Queue
+    
+    def create_name_file(self):
+        keys=list(BASE_PORTAL.keys())
+        index=list(BASE_PORTAL.values()).index(self.query)
+        checkpoint=keys[index]
+        filename="output/"+checkpoint+"_declarant_api_parser.json"
+        return filename
 
 BASE_ORGANISM = {"человек": "9606", "мышь": "10090", "крыса": "10116","бык": "9913"}
 
@@ -169,67 +200,33 @@ class UniprotParser(BaseParser):
             self.query = "(" +request + ")"
         return self
     
-def hmdb_parser():
-    session = requests_html.HTMLSession()
-    parser=HmdbParser(url="http://hmdb.ca/metabolites",session=session)
-    parser.query=input("Enter filter criteria by space: ").split(" ")
-    for_name=parser.query
-    parser=parser.create_filter() 
-    data=parser.get_data()
-    dictionary_data=parser.transform(data)
-    name_file="common_parser/hmdb_"+"_".join(for_name)+"_html_parser.json"
-    parser.writefile(dictionary_data,name_file)
-    return
-
-def gismeteo_parser():
-    session = requests_html.HTMLSession()
-    parser=GismeteoParser(url="https://gismeteo.by/",query="catalog/",session=session)
-    country=input("Please, enter the country (on Russian): ")+" "
-    parser=parser.parse_country(country)
-    if parser.query is not None:
-        city = input("Please, enter the city (on the Russian): ")
-        parser = parser.parse_city(city)
-        if parser.query is not None:
-            weather=parser.parse_weather()
-            namefile= "common_parser/"+parser.query.split("-")[1] +"_gismeteo_html_parser.json"
-            parser.writefile(weather,namefile)
-    return
-
-def declarant_parser():
-    checkpoint=input("Введіте погранічный пункт: ")
-    transport = input("Очередь легковая ілі грузовая: ")
-    parser=DeclarantParser(url="https://belarusborder.by/info/monitoring-new?token=test&checkpointId=")
-    parser=parser.get_zone(checkpoint)
-    zone_inform=parser._get_page().json()
-    queue = parser.get_Queue(transport,zone_inform)
-    filename="common_parser/"+checkpoint+"_"+transport+"_declarant_api_parser.json"
-    parser.writefile(queue,filename)
-    return
-
-def uniprot_parser():
-    ask=input("Enter quaery: ")
-    species = input("Enter species or NA: ")
-    parser=UniprotParser(url="https://rest.uniprot.org/uniprotkb/search?fields=accession,reviewed,id,protein_name,gene_names,organism_name,length&query=")
-    combine_request=parser.combine_reqest(ask,species)
-    information = parser._get_page().json()
-    if species !="NA":
-        filename="common_parser/"+ask+"_"+species+".json"
-    else:
-        filename = ask +".json"
-    parser.writefile(information["results"],filename)
-    return
+    def get_info(self):
+        ask=input("Enter quaery: ")
+        species = input("Enter species or NA: ")
+        self=self.combine_reqest(ask,species)
+        information = self._get_page().json()["results"]
+        return information
+    
+    def create_name_file(self):
+        filename="output/"+self.query+"_uniprot_api.json"
+        return filename
 
 def main():
     answer = input("which site do you need? 1- HMBD, 2- Gismeteo, 3 - mon.declarant, 4 - uniprot: ")
     match answer:
         case "1":
-            hmdb_parser()
+            session = requests_html.HTMLSession()
+            parser=HmdbParser(url="http://hmdb.ca/metabolites",session=session)
         case "2":
-            gismeteo_parser()
+            session = requests_html.HTMLSession()
+            parser=GismeteoParser(url="https://gismeteo.by/",query="catalog/",session=session)
         case "3":
-            declarant_parser()
+            parser=DeclarantParser(url="https://belarusborder.by/info/monitoring-new?token=test&checkpointId=")
         case "4":
-            uniprot_parser()
+            parser=UniprotParser(url="https://rest.uniprot.org/uniprotkb/search?fields=accession,reviewed,id,protein_name,gene_names,organism_name,length&query=")
+    data=parser.get_info()
+    path=parser.create_name_file()
+    parser.writefile(data,path)
     return
 
 if __name__=="__main__":
